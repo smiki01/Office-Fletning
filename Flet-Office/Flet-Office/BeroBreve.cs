@@ -30,7 +30,6 @@ namespace Flet_Office
         string KontorNavn = "";
         int FejlCnt = 0;
         int MedlCnt = 0;
-        string MailLog = Properties.Settings.Default.Common_MailLog;
         string LokalBy = "";
         string AfdKontorNavn = "";
         string AfdKontorAdresse = "";
@@ -166,7 +165,7 @@ namespace Flet_Office
             {
                 MyVars.emailSubj = "Systemfejllog for Berobreve";
                 MyVars.emailBody = "Dette er en fejllog som viser system relaterede fejl ved kørsel af Berobreve. " + Environment.NewLine + "Se vedhæftede log for detaljer";
-                SendEmail EmailObj = new SendEmail("", "", "admin@bdk.dk", PgmLogSys, "sa-gobolig@bdk.dk", MailLog, "");
+                SendEmail EmailObj = new SendEmail("", "", "admin@bdk.dk", PgmLogSys, "sa-gobolig@bdk.dk", "");
             }
             if (File.Exists(PgmLog))
             {
@@ -189,7 +188,7 @@ namespace Flet_Office
                 LogText = Tekst;
                 File.AppendAllText(PgmLog, LogText + Environment.NewLine);
 
-                SendEmail EmailObj = new SendEmail("", "", afs, PgmLog, modt, MailLog, "");
+                SendEmail EmailObj = new SendEmail("", "", afs, PgmLog, modt, "");
             }
             else
             {
@@ -233,7 +232,7 @@ namespace Flet_Office
             }
             string Kategori = "0002009999";
 
-            SendEmail EmailObj = new SendEmail(gemMedl, IntNavn, AfdKontorEmail, FilePDF, emailModt, MailLog, Kategori);
+            SendEmail EmailObj = new SendEmail(gemMedl, IntNavn, AfdKontorEmail, FilePDF, emailModt, Kategori);
             if (MyVars.EmailSendtOK == false)
             {
                 string gemEmailBody = MyVars.emailBody;

@@ -10,7 +10,7 @@ namespace Flet_Office
 {
     public class SendEmail
     {
-        public SendEmail(string MedlemsNr, string IntNavn, string AfdMail, string FilePDF, string emailModt, string MailLog, string Kategori)
+        public SendEmail(string MedlemsNr, string IntNavn, string AfdMail, string FilePDF, string emailModt, string Kategori)
         {
             Chilkat.MailMan mailman = new Chilkat.MailMan();
 

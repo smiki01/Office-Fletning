@@ -5,9 +5,6 @@
     <Setting Name="BeroBreve_Folder" Type="System.String" Scope="Application">
       <Value Profile="(Default)">C:\\FletOffice\\BeroBreve</Value>
     </Setting>
-    <Setting Name="Common_MailLog" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">C:\\FletOffice\\SendEmail.Log</Value>
-    </Setting>
     <Setting Name="Common_GoDokBib" Type="System.String" Scope="Application">
       <Value Profile="(Default)">Dokumenter</Value>
     </Setting>

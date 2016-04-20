@@ -34,15 +34,6 @@ namespace Flet_Office.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\\\FletOffice\\\\SendEmail.Log")]
-        public string Common_MailLog {
-            get {
-                return ((string)(this["Common_MailLog"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Dokumenter")]
         public string Common_GoDokBib {
             get {
