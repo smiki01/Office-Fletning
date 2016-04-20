@@ -238,27 +238,12 @@ namespace Flet_Office
                 string gemEmailBody = MyVars.emailBody;
                 if (MyVars.MailFejltekst != "")
                 {
-                    MyVars.emailSubj = "System fejl opstået ved send af e-mail!";
-                    MyVars.emailBody = "Herunder kan læses fejlmeddelelse fra send e-mail program: " + Environment.NewLine + MyVars.MailFejltekst;
                     LogText = "System fejl opstået ved send af e-mail til medlem " + gemMedl + " på følgende Email adresse (" + emailModt + ")." + Environment.NewLine + "Fejltekst: " + MyVars.MailFejltekst;
                     File.AppendAllText(PgmLogSys, LogText);
                     FejlCnt++;
                 }
                 else
                 {
-                    MyVars.emailSubj = Properties.Settings.Default.Common_EmailEjLev + gemMedl + ". Handling påkrævet!";
-                    MyVars.emailBody = "Nedenstående email kunne ikke leveres til medlemsnr. 099-" + gemMedl + "." + Environment.NewLine;
-                    if (emailModt != "")
-                    {
-                        MyVars.emailBody += "Årsag: Email adresse (" + emailModt + ") er ikke gyldig.";
-                    }
-                    else
-                    {
-                        MyVars.emailBody += "Årsag: " + Properties.Settings.Default.Common_EmailIngen + " " + IntNavn + Environment.NewLine;
-                    }
-                    MyVars.emailBody += Environment.NewLine + "Send bero-brev med posten i stedet for til:" + Environment.NewLine +
-                        IntNavn + Environment.NewLine + IntAdresse + Environment.NewLine + IntPostBy +
-                        Environment.NewLine + Environment.NewLine + Environment.NewLine + gemEmailBody;
                     textBox1.Text += Properties.Settings.Default.Common_EmailEjLev + " 099-" + gemMedl + ". Email adresse (" + emailModt + ") er ikke gyldig. " + Environment.NewLine;
                     if (emailModt != "")
                     {
@@ -271,7 +256,7 @@ namespace Flet_Office
 
                     File.AppendAllText(PgmLog, LogText + Environment.NewLine);
 
-                    //Hvis e-mail ikke kunne sendes til medlem, sendes vedhæftede PDF dokument til default printer 
+                    //Hvis e-mail ikke kunne sendes til medlem, sendes vedhæftede PDF dokument til default printer (receptionen)
                     PDFPrint.PrintPDFs(FilePDF);
 
                     FejlCnt++;
