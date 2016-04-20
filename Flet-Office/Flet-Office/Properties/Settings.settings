@@ -1,0 +1,143 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Flet_Office.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BeroBreve_Folder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\\FletOffice\\BeroBreve</Value>
+    </Setting>
+    <Setting Name="Common_MailLog" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\\FletOffice\\SendEmail.Log</Value>
+    </Setting>
+    <Setting Name="Common_GoDokBib" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Dokumenter</Value>
+    </Setting>
+    <Setting Name="Common_SkabelonSti" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\\\plaza.local\\dfs\\EgboligBDK\\Egbolig\\BDK\\Dokumenter i Eg Bolig\\Medlem</Value>
+    </Setting>
+    <Setting Name="BeroBreve_SkabelonNavn" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\MedlemBerobrev nyt_autoprogram.docx</Value>
+    </Setting>
+    <Setting Name="BeroBreve_FolderOld" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\\FletOffice\\BeroBreve_old</Value>
+    </Setting>
+    <Setting Name="BeroBreve_ErrorLog" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\\FletOffice\\ProgramLog_Bero_</Value>
+    </Setting>
+    <Setting Name="Common_MonitorServerNavn" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PRO-PLZ-BATCH04</Value>
+    </Setting>
+    <Setting Name="BeroBreve_MonitorJobNavn" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Udskriv BeroBreve</Value>
+    </Setting>
+    <Setting Name="Common_MonitorGruppeNavnGO" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Gobolig</Value>
+    </Setting>
+    <Setting Name="Common_MonitorAlarmVærdiOK" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Common_MonitorAlarmVærdiFejl" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="Common_MonitorTekstOK" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Alle breve sendt ok på e-mail i nat</Value>
+    </Setting>
+    <Setting Name="Common_MonitorTekstFejl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Der er fundet medlemmer uden valid e-mail adresse. Antal ikke sendte breve: </Value>
+    </Setting>
+    <Setting Name="Common_MonitorTekst" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Antal medlemmer, der har fået tilsendt e-mail : </Value>
+    </Setting>
+    <Setting Name="Common_EmailBodyFejl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Nogle medlemmer kunne ikke modtage e-mail via batch kørslen  </Value>
+    </Setting>
+    <Setting Name="BeroBreve_SlutTekstIngen" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Der var ingen medlemmer, der skulle have Bero-breve i dag.</Value>
+    </Setting>
+    <Setting Name="Common_SlutTekst" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Nu har vi behandlet medlem nr.: </Value>
+    </Setting>
+    <Setting Name="Common_EmailEjLev" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">E-mail kunne ikke leveres til medlemsnr. </Value>
+    </Setting>
+    <Setting Name="Common_EmailModtFejl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Officebreve@bdk.dk</Value>
+    </Setting>
+    <Setting Name="Common_GoboligJourFejl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Dokument kunne ikke journaliseres for medlemsNr.: </Value>
+    </Setting>
+    <Setting Name="Common_EmailModtIngen1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Vi savner din e-mail adresse. </Value>
+    </Setting>
+    <Setting Name="Common_EmailModtIngen2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">For at forbedre vores service vil vi gerne have lov at sende dig boligtilbud via e-mail. Husk derfor at oplyse din e-mail adresse.</Value>
+    </Setting>
+    <Setting Name="Common_EmailModtInv" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Vi har uden held forsøgt at sende dette brev til dig via e-mail adressen: </Value>
+    </Setting>
+    <Setting Name="Common_EmailIngen" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Ingen e-mail adresse angivet for medlemmet</Value>
+    </Setting>
+    <Setting Name="Opskrivningsbevis_Folder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\\FletOffice\\Opskrivningsbevis</Value>
+    </Setting>
+    <Setting Name="Opskrivningsbevis_SkabelonNavn" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\BevisSelskab nyt_autoprogram.doc</Value>
+    </Setting>
+    <Setting Name="Opskrivningsbevis_FolderOld" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\\FletOffice\\Opskrivningsbevis_old</Value>
+    </Setting>
+    <Setting Name="Opskrivningsbevis_ErrorLog" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\\FletOffice\\ProgramLog_Opskriv_</Value>
+    </Setting>
+    <Setting Name="Opskrivningsbevis_MonitorJobNavn" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Udskriv opskrivningsbeviser</Value>
+    </Setting>
+    <Setting Name="Common_EmailAfsFejl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Admin@bdk.dk</Value>
+    </Setting>
+    <Setting Name="Common_EmailEGModtLog" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EGinc@bdk.dk</Value>
+    </Setting>
+    <Setting Name="BeroBreve_EmailSubjFejl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BeroBreve fejl!</Value>
+    </Setting>
+    <Setting Name="Opskrivningsbevis_EmailSubjFejl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Opskrivningsbevis fejl!</Value>
+    </Setting>
+    <Setting Name="Opskrivningsbeviser_SlutTekstIngen" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Der var ingen medlemmer, der skulle have opskrivningsbeviser i dag.</Value>
+    </Setting>
+    <Setting Name="Common_MonitorGruppeNavnEG" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EGbolig</Value>
+    </Setting>
+    <Setting Name="Common_ConnectionString_SQL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=PRO-PLZ-SQL02;Initial Catalog=Bolig;Persist Security Info=True;User ID=SA-BDK-SPDB;Password=8RUG2plaza</Value>
+    </Setting>
+    <Setting Name="Common_ConnectionString_Monitor" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=PRO-PLZ-SQL01;Initial Catalog=PlazaIT;Persist Security Info=True;User ID=SA-GOSERVICE;Password=8RUG2plaza</Value>
+    </Setting>
+    <Setting Name="Common_EmailSubjOk" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Alle breve leveret OK!</Value>
+    </Setting>
+    <Setting Name="Common_EmailBodyOk" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Alle breve er leveret OK på e-mail.</Value>
+    </Setting>
+    <Setting Name="BeroBreve_Select" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT DISTINCT TOP (100) PERCENT Medlem FROM dbo.MedlemAfSelskabStatusLog AS l WHERE (NyStatus = '1') AND (MedlemSelskab &lt;&gt; 99) AND (CONVERT(date, Createdate) = DATEADD(day, - 1, CONVERT(date, GETDATE()))) AND ((SELECT COUNT(*) AS Antal FROM dbo.MedlemAfSelskabStatusLog AS MedlemAfSelskabStatusLog_1 WHERE (CONVERT(date, Createdate) = DATEADD(day, - 1, CONVERT(date, GETDATE()))) AND (Medlem = l.Medlem) AND (NyStatus = 'l')) = 0) ORDER BY Medlem</Value>
+    </Setting>
+    <Setting Name="Opskrivningsbevis_Select" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT DISTINCT dbo.MedlemAfSelskab.Medlem, MedlemAfSelskab_1.Sel, MedlemAfSelskab_1.Medlem AS Expr1, MedlemAfSelskab_1.MedlemSelskab, MedlemAfSelskab_1.Status, MedlemAfSelskab_1.DatoOpnot, MedlemAfSelskab_1.DatoBetOpnot, MedlemAfSelskab_1.Lmtype FROM dbo.MedlemAfSelskab RIGHT OUTER JOIN dbo.MedlemAfSelskab AS MedlemAfSelskab_1 ON dbo.MedlemAfSelskab.Medlem = MedlemAfSelskab_1.Medlem 
+where datediff(day,MedlemAfSelskab_1.DatoOpnot,getdate()) = 3 and MedlemAfSelskab_1.Status &lt;&gt; 3 and MedlemAfSelskab_1.DatoBetOpnot is not null and datediff(day,MedlemAfSelskab_1.DatoBetOpnot,getdate()) = 3
+ORDER BY Medlem, MedlemSelskab, DatoOpnot desc</Value>
+    </Setting>
+    <Setting Name="Common_Email_Testmodt" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">kism@bdk.dk</Value>
+    </Setting>
+    <Setting Name="Common_PROD" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Common_Adobe_Sti" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
